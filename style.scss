@@ -1,0 +1,90 @@
+/*
+    1 variables
+    2 Nesting
+    3 operators
+    4 maps
+*/
+
+
+$heading-color:#80d9c3;
+$background-color:#50647c;
+$font-color:#81818d;
+
+@mixin common-btn {
+    background:#14a78d;
+    width: 30%;
+}
+
+
+header{
+    background-color: $background-color;
+
+    nav{
+   
+        a{
+            color: white;
+            font-weight: 600;
+        }
+    }
+
+}
+
+.hero{
+    padding: 40px 0;
+    background: #14a78d ;
+
+    button{
+        background: #ffffff;
+        color:$heading-color ;  
+        font-weight: 600; 
+    }    
+}
+
+.team{
+    padding: 40px 0;
+    background: $background-color;
+
+    .content{
+        h2{
+            color:$heading-color ;
+        }
+        p{
+            color:$font-color;
+        }
+    }    
+}
+
+.features{
+    padding: 40px 0;
+
+    figure{
+        background:#14a78d;
+        width: 20%;
+    }
+    button{
+        @include common-btn;
+    }
+
+}
+
+.features{
+    h6{
+        color: $heading-color;
+    }
+}
+
+.form-Area{
+    padding: 40px 0;
+    background: #38475a;
+
+    button{
+       @include common-btn; 
+    }
+    h3,h5{
+        color: #24906c;
+    }
+    p{
+       color: #757f8b; 
+    }
+}
+

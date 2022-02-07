@@ -1,0 +1,75 @@
+/*
+    1 variables
+    2 Nesting
+    3 operators
+    4 maps
+*/
+header {
+  background-color: #50647c;
+}
+
+header nav a {
+  color: white;
+  font-weight: 600;
+}
+
+.hero {
+  padding: 40px 0;
+  background: #14a78d;
+}
+
+.hero button {
+  background: #ffffff;
+  color: #80d9c3;
+  font-weight: 600;
+}
+
+.team {
+  padding: 40px 0;
+  background: #50647c;
+}
+
+.team .content h2 {
+  color: #80d9c3;
+}
+
+.team .content p {
+  color: #81818d;
+}
+
+.features {
+  padding: 40px 0;
+}
+
+.features figure {
+  background: #14a78d;
+  width: 20%;
+}
+
+.features button {
+  background: #14a78d;
+  width: 30%;
+}
+
+.features h6 {
+  color: #80d9c3;
+}
+
+.form-Area {
+  padding: 40px 0;
+  background: #38475a;
+}
+
+.form-Area button {
+  background: #14a78d;
+  width: 30%;
+}
+
+.form-Area h3, .form-Area h5 {
+  color: #24906c;
+}
+
+.form-Area p {
+  color: #757f8b;
+}
+/*# sourceMappingURL=style.css.map */
