@@ -10,9 +10,10 @@ $heading-color:#80d9c3;
 $background-color:#50647c;
 $font-color:#81818d;
 
-@mixin common-btn {
+@mixin common-btn ($btnc) {
     background:#14a78d;
     width: 30%;
+    color: $btnc;
 }
 
 
@@ -78,7 +79,7 @@ header{
     background: #38475a;
 
     button{
-       @include common-btn; 
+       @include common-btn(#fff); 
     }
     h3,h5{
         color: #24906c;
