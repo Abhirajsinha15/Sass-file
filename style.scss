@@ -13,7 +13,12 @@ $font-color:#81818d;
 @mixin common-btn ($btnc) {
     background:#14a78d;
     width: 30%;
-    color: $btnc;
+    color: white;
+}
+
+@mixin common-fig{
+    background:#14a78d;
+    width: 20%;
 }
 
 
@@ -59,8 +64,7 @@ header{
     padding: 40px 0;
 
     figure{
-        background:#14a78d;
-        width: 20%;
+       @include common-fig;
     }
     button{
         @include common-btn;
@@ -78,14 +82,22 @@ header{
     padding: 40px 0;
     background: #38475a;
 
-    button{
-       @include common-btn(#fff); 
-    }
+
     h3,h5{
         color: #24906c;
     }
     p{
        color: #757f8b; 
+    }
+    
+    .form-control{
+        background: transparent;
+    }
+
+    .content-head{
+        figure{
+            @include common-fig
+        }
     }
 }
 
